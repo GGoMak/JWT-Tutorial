@@ -23,3 +23,9 @@ spring:
 logging:
   level:
     me.silvernine: DEBUG
+
+jwt:
+  header: Authorization
+  #echo : 'ggomak-tech-spring-boot-jwt-tutorial-secret-ggomak-tech-spring-boot-jwt-tutorial-secret-additional-string' | base64
+  secret: Z2dvbWFrLXRlY2gtc3ByaW5nLWJvb3Qtand0LXR1dG9yaWFsLXNlY3JldC1nZ29tYWstdGVjaC1zcHJpbmctYm9vdC1qd3QtdHV0b3JpYWwtc2VjcmV0LWFkZGl0aW9uYWwtc3RyaW5n
+  token-validity-in-seconds: 86400
